@@ -1,0 +1,190 @@
+body {
+  font-family: 'Merriweather', serif;
+  line-height: 1.5;
+  text-align: center;
+}
+
+p {
+  font-size: 1rem;
+  color: #8f8f8f;
+}
+
+/**heading style**/
+.big-heading {
+  font-weight: 900;
+  color: white;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+/** container style**/
+.container-fluid {
+  padding: 7% 15%;
+}
+/** section style**/
+
+.colored-section {
+background-color: #F4A460;
+
+}
+
+.white-section {
+
+background-color: white;
+}
+
+/**navibar style**/
+.navbar {
+  font-size: 20px;
+  padding: 0 0 5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
+  text-shadow: 4px 4px 4px #708090;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+/**Download button style**/
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/** title section**/
+
+#title .container-fluid {
+  padding: 3% 15% 7% ;
+    text-align: left;
+      background-color: #FA8072;
+}
+
+/**style of the title image **/
+.iphone {
+  width: 60%;
+  transform: rotate(+25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/**style of the features **/
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.feature-section {
+  font-family: 'Montserrat-bold';
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.Icon {
+  font-size: 3rem;
+  color: #FA8072;
+  margin-bottom: 1rem;
+}
+
+.Icon:hover {
+  color: #A0522D;
+}
+
+.part {
+  padding: 5%;
+}
+
+/**style of the testimonials **/
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+    color: #2F4F4F;
+}
+
+/**style of the press **/
+#press {
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/**style of the pricing**/
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/**style of the call to Action**/
+#cta.colored-section {
+  background-color: #F08080;
+}
+
+.heading-3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+  padding-left: 100px;
+  padding-right: 50px;
+}
+
+/**style of the  footer**/
+.pf {
+  padding-top: 15px;
+}
+
+.fa-twitter {
+  padding-right: 10px;
+}
+
+.fa-instagram, .fa-envelope, .fa-facebook {
+  padding-left: 10px;
+}
+
+/** make the style responsive on the mobile**/
+@media(max-width:1020px) {
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
